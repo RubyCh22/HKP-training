@@ -1,0 +1,2 @@
+// Only change code below this line
+var myArray = [["yes",1],["No",2]];
