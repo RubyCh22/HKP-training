@@ -1,0 +1,108 @@
+body{
+  background: linear-gradient(45deg, rgba(218, 145, 202, 0.425), rgba(223, 119, 119, 0.384), rgba(136, 151, 233, 0.425) );
+  padding:10px 30px 0px 30px;
+}
+#nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+  font-size:20px;
+}
+
+#c {
+  float: left;
+}
+
+#c a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#c a:hover {
+  background-color: #111;
+}
+
+#tribute-info{
+  font-family: 'Petrona', serif;
+  font-size:20px;
+  color:black;
+  line-height: 30px;
+  max-width:550px;
+  margin:0px auto 50px auto;
+}
+#info{
+  letter-spacing: 1.5px;
+  max-width:550px;
+  margin:0px auto 50px auto;
+}
+.txt{
+  max-width:700px;
+  margin:0px auto 30px auto;
+  font-family: 'Petrona', serif;
+  font-size:20px;
+}
+.hd{
+  display:flex;
+}
+h1{
+  font-family: 'Quattrocento', serif;
+  font-size:40px;
+  flex:auto;
+  text-align: right;
+}
+@media (max-width:600px){
+  .hd{
+    display:block;
+  }
+  h1{
+    text-align:left;
+  }
+} 
+h2{
+  font-family: 'Quattrocento', serif;
+  font-size:30px;
+  flex:auto;
+  padding-top:10px;
+  text-align: left;
+  color:rgb(82, 79, 79);
+}
+
+h3{
+  font-family: 'Quattrocento', serif;
+  font-size:25px;
+  text-align: left;
+  padding-left:20px;
+}
+figcaption{
+  color:rgb(97, 95, 95);
+  text-align: center;
+  padding-bottom:20px;
+}
+#cites{
+  line-height:30px;
+  text-align: center;
+  max-width:550px;
+  margin:0px auto 50px auto;
+}
+img{
+  max-width:100%;
+  height:auto;
+  display: block;
+  align-self: center;
+  margin:0 auto;
+  border-radius: 30%;
+  padding:10px;
+}
+footer{
+  text-align:right;
+  color:#333;
+}
+#cites a{
+  text-decoration:none;
+}
