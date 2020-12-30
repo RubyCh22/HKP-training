@@ -1,0 +1,7 @@
+const MyComponent = function() {
+  // Change code below this line
+return (<div>it is a div</div>);
+
+
+  // Change code above this line
+}
